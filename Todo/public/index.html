@@ -1,0 +1,34 @@
+<!DOCTYPE html> <!--Converting To-Do App Part 1-->
+<html>
+    <head>
+        <Link href="images/favicon.png" rel="icon">
+        <Link href="styles/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <h1 class="header__title">To-do App</h1>              
+                <div class="header__subtitle">What do you need to do?</div>
+            </div>
+        </div>
+        
+        <div class="actions">
+            <div class="actions__container">
+                <input id="search-text" type="text" class="input" placeholder="Filter todos">    
+                <label class="checkbox">
+                    <input type="checkbox" id="hide-completed"> Hide completed
+                </label>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="todos"></div>
+             <form id="todo-form">
+                 <input type="text" name="todoText" class="input" placeholder="Something to do" >
+                 <button id="add-todo" class="button">Add Todo</button>       
+             </form>
+        </div>
+        
+        <script src="scripts/bundle.js"></script>
+        </body>
+</html> 
